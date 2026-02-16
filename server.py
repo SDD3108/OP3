@@ -204,12 +204,102 @@
 #     print(matrix[i][i])
 
 # 15.
-matrix = [
-    [' ','#',' '],
-    [' ','#','P'],
-    [' ','#',' '],
-]
-for i in matrix:
-    for j in i:
-        print(j,end=' ')
-    print()
+# matrix = [
+#     [' ','#',' '],
+#     [' ','#','P'],
+#     [' ','#',' '],
+# ]
+# for i in matrix:
+#     for j in i:
+#         print(j,end=' ')
+#     print()
+
+
+# def first_function():
+#     print('yoyoy')
+
+# first_function()
+
+# def get(name):
+#     print('hello', name)
+
+# get('damir')
+# get('aisa')
+
+# def user(name,age,is_gay):
+#     print('hello',name, 'now u are',age,'are you gay?','yes' if is_gay else 'nuh')
+
+# user('damir',18,False)
+
+# def square(num):
+#     return num ** 2
+# print(square(5))
+
+# def sum_list(numbers):
+#     total = 0
+#     for i in numbers:
+#         total += i
+#     return total
+# my_list = [1,2,3,4,5]
+
+# print('sum of list',sum_list(my_list))
+
+# def sum_odd(numbers):
+#     sum = 0
+#     for i in numbers:
+#         if(i % 2 == 0):
+#             sum += i
+#     return sum
+
+# print(sum_odd(my_list))
+
+# def yo(name = 'ghost'):
+#     print(f'hello, {name}')
+# yo()
+# yo('damir')
+
+# def a(name,age=0):
+#     print(f'Hello {name},are you {age} years old?')
+# a('damir')
+# a('damir',18)
+
+# def min_max(num):
+#     return min(num), max(num)
+
+# a,b = min_max([4,3])
+# print('Max',a)
+# # print('Min',b)
+
+# x = 10
+
+# def test():
+#     y = 5
+#     print(x+y)
+
+# test()
+
+# def x(y):
+#     return y*y
+
+# f = lambda x:x*x
+
+# print(f(6))
+
+# f = lambda x:x+10
+
+# print(f(5))
+
+# f = lambda x,y:x*y
+
+# print(f(2,4))
+
+# def word_counter(text):
+#     counter = 0
+#     for i in text:
+#         if(i.isalpha()):
+#             counter += 1
+#         else:
+#             print('text need to be text')
+#     return counter
+
+# print(word_counter())
